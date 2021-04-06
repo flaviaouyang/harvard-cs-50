@@ -5,6 +5,7 @@ int main (void)
      /* declare and instantiate int variable height */
     int height;
     printf("Enter a number for height: ");
+     
     /* 
     *use scanf function to take an integer input from the user and
     *store it in height
