@@ -1,0 +1,49 @@
+Big O Notation: 
+describes running time of an algorithm
+
+1. O(n)
+2. O(log n)
+3. O(n log n)
+4. O(1)
+5. O(n^2)
+------------------------------------------
+Big Omega Notation: 
+describes the lower bound
+------------------------------------------
+Linear search: 
+search one element by one element
+
+door example:
+for i from 0 to n - 1
+    if number behind ith door
+        return true
+return false
+
+efficiency: O(n); Ω(1)
+------------------------------------------
+Binary search:
+search from middle in sorted array
+
+door example:
+if number behind middle door
+    return true
+else if number < middle door
+    search left half
+else if number > middle door
+    search right half
+
+time efficiency: O(log n); Ω(1)
+------------------------------------------
+strcmp():
+compare two strings
+
+strcmp(names[i], "ron") == 0
+------------------------------------------
+struct:
+typedef struct
+{
+    string name;
+    string number;
+}
+person;
+------------------------------------------
