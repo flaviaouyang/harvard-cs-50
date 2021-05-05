@@ -77,7 +77,7 @@ swap pairs of numbers repeatedly
 
 pseudocode:
 ```
-Repaet until sorted
+Repeat until sorted
     For i from 0 to n-2
         If i'th and i+1'th elements out of order
             Swap them
@@ -87,9 +87,27 @@ Repaet until sorted
 time efficiency: O(n^2), Ω(n)
 
 -------------------------------------------
-# Recursion
+# Recursion:
 - the ability for a function to call itself
-
 
 -------------------------------------------
 # Merge sort:
+
+pseudocode:
+```
+if only one number //base case
+    return
+else
+    sort left half of number
+    sort right half of number
+    merge sorted halves
+```
+
+time efficiency: O(n log n), Ω(n log n)
+
+-------------------------------------------
+# Theta Notation:
+this notation describes the running time of algorithms if the upper bound and lower bound is the same
+
+θ(n^2): selection sort
+θ (n log n): merge sort
