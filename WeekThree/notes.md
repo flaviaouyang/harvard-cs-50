@@ -87,10 +87,6 @@ Repeat until sorted
 time efficiency: O(n^2), Ω(n)
 
 -------------------------------------------
-# Recursion:
-- the ability for a function to call itself
-
--------------------------------------------
 # Merge sort:
 
 pseudocode:
@@ -111,3 +107,69 @@ this notation describes the running time of algorithms if the upper bound and lo
 
 θ(n^2): selection sort
 θ (n log n): merge sort
+
+-------------------------------------------
+# Recursion
+- the ability for a function to call itself
+
+
+## Question 1: Write a recursive function that given an input n sums all nonnegative integers up to n?
+
+### 5 steps:
+1. what is the simplest possible output?
+    - Base case
+    - when n is 0, sum is 0
+2. try with more examples and visualize
+    - when n is 1, sum is 1
+    - when n is 2, sum is 1 plus 2
+    - when n is 3, sum is 1+2+3
+    ...
+3. Relate hard cases to simpler cases
+    - if given sum(3), how to solve sum(4)
+4. Generalize the patter
+    - let n be k, sum(k) = sum(k-1) + k
+
+```python
+def sum(n):
+    if n == 0:
+        return 0;
+    else:
+        return n + sum(n-1)
+```
+
+- Recursive leap of faith: assume simpler cases work out
+
+## Question 2: Write a recursive function that takes input n and m and outputs the number of unique paths from the top left corner to the bottom right corner of a n*m grid? Note you can only move down or right 1 unit at a time.
+
+1. base case: grid_path(1, 1) -> 1 path
+    - grid_path(n, 1) -> 1 path
+2. more examples
+3. relation: the number of path of 3 * 3 is the sum of 2 * 3 and 3 * 2
+4. Gneralization: to find grid_path(n, m) find the sum of grid_path(n,m-1) and grid_path(n-1,m)
+
+```python
+def grid_paths(n, m):
+    if n == 1 or m == 1:
+        return 1
+    else:
+        return grid_paths(n, m - 1) + grid_paths(n - 1, m)
+```
+
+## Question 3: Write a recursive function that counts the number of ways you can partition n objects using parts up to m (assuming m >= 0)
+
+1. base case: n and m both are 0 -> 1 partition
+    - (0, 1) -> 1
+    - (n, m) if n = 0 -> 1 (base case one)
+    - (n, m) if m = 0 -> 0 (base case two)
+2. write out examples
+...
+
+```python
+def count_partition(n, m):
+    if n == 0:
+        return 1
+    elif m == 0:
+        return 0
+    else:
+        return count_partition(n-m,m) + count_partition(n,m-1)
+```
