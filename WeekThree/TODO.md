@@ -1,0 +1,4 @@
+- [ ] code implementation of selection sort
+- [ ] bubble sort in C
+- [ ] merge sort in C
+- [ ] recursion implementation and exercise
