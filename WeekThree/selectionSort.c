@@ -22,8 +22,10 @@ int main()
 
     // print out the array
     for (int k = 0; k < 7; k++){
-        printf("%i\n", array[k]);
+        printf("%i", array[k]);
+        printf(" ");
     }
+    printf("\n");
 }
 
 //function to swap the two elements
