@@ -20,11 +20,13 @@ int main()
         swap(&array[min_index],&array[i]);
     }
 
+    // print out the array
     for (int k = 0; k < 7; k++){
         printf("%i\n", array[k]);
     }
 }
 
+//function to swap the two elements
 void swap(int *xp, int *yp)
 {
     int temp = *xp;
