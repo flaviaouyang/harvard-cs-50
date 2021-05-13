@@ -8,4 +8,15 @@ int main()
 
     printf("%i\n", *&*p);
     printf("%i\n", *p);
+
+    char *s = "Hi!";
+    printf("%s\n", s);
+    printf("%c\n", s[0]);
+    printf("%c\n", s[1]);
+    printf("%c\n", s[2]);
+
+    //*: go to address
+    printf("%c\n", *s);
+    printf("%c\n", *(s+1));
+    printf("%c\n", *(s+2));
 }
