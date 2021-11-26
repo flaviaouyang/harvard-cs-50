@@ -10,7 +10,7 @@
 typedef struct
 {
 	string name;
-  int number;
+  	int number;
 }
 node;
 ```
