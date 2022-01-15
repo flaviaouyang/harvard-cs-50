@@ -83,5 +83,34 @@ def greet():
 
 ## Template
 
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    {% block body %}{% endblock %}
+</body>
+</html>
+```
+
+```html
+{% extends "layout.html" %}
+{% body block %}
+<h1>Hi, there!</h1>
+<h2>What should I call you?</h2>
+<form action="/greet" method="get">
+    <input required autocomplete="off" autofocus name="name" placeholder="Name" type="text">
+    <input type="submit">
+</form>
+{% endblock %}
+```
+
+## `POST`
+
 
 
