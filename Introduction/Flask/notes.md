@@ -112,5 +112,17 @@ def greet():
 
 ## `POST`
 
-
-
+- change the method of form to `post` from `get`
+	- `ERROR: Method not allowed`
+	- Change `@app.route("/greet, methods=["POST"])`
+	- displays only `hello, world`
+	- `request.args` for `get`; `request.form` for `post`
+	- works now
+- **MVC Paradiam**: Model-View-Controller
+	- `app.py` -> **controller**
+		-  “business logic”, code that manages our application overall, given user input
+	-  `*.html` -> **view**
+		- templates and visuals for the user interface, like the HTML and CSS that the user will see and interact with
+	- `databases, etc` -> **model**
+		- our application’s data, such as a SQL database or CSV file
+- 
