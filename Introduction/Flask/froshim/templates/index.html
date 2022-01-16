@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+{% block body %}
+<h1>Frosh IMS</h1>
+<h2>Register</h2>
+<form action="/register" method="post">
+    <input autocomplete="off" type="text" autofocus name="name" placeholder="Name: ">
+    <br>
+    {% for book in books %}
+    <input type="radio" name="book" value="{{book}}">
+    <label>{{book}}</label>
+    <br>
+    {% endfor %}
+    <input type="submit" value="register">
+</form>
+{% endblock %}
