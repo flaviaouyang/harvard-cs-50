@@ -125,4 +125,5 @@ def greet():
 		- templates and visuals for the user interface, like the HTML and CSS that the user will see and interact with
 	- `databases, etc` -> **model**
 		- our application’s data, such as a SQL database or CSV file
-- 
+
+## Storing Data
