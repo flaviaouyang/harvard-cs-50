@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+{% block body %}
+<h1>Registry</h1>
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Book</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for registrant in registry %}
+        <tr>
+            <td>{{ registrant[1] }}</td>
+            <td>{{ registrant[2] }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+<form action="/more">
+<input type="submit" value="Register for another person">
+</form>
+{% endblock %}
