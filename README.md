@@ -1,4 +1,4 @@
 # CS50_Harvard
 ## notes
-- [Algorithms](introduction/algorithms/notes.md)
+- [Algorithms](Introduction/Algorithms/notes.md)
 ## exercise solution
