@@ -1,6 +1,7 @@
-# CS50_Harvard
+# CS50 Introduction to Computer Science
 
-## notes
+## NOTES
+
 - [Algorithms](Introduction/Algorithms/notes.md)
 - [SQL](Introduction/SQL/notes.md)
 - [HTML, CSS & JS](Introduction/html-css-js/notes.md)
