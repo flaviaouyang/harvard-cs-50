@@ -2,6 +2,8 @@
 
 This repository contains notes taken from [CS50 2021](https://cs50.harvard.edu/x/2022/) and its corresponding source code, excluding week zero and week ten.
 
+View this repository as a [website](https://flaviaouyang.github.io/harvard-cs-50/)
+
 ## CONTENT
 
 - Week 1: C
