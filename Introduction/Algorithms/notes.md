@@ -5,11 +5,10 @@ describes running time of an algorithm
 3. O(n log n)
 4. O(1)
 5. O(n^2)
-------------------------------------------
+
 # Big Omega Notation: 
 describes the lower bound
 
-------------------------------------------
 # Linear search: 
 search one element by one element
 
@@ -24,7 +23,6 @@ return false
 
 time efficiency: O(n); Ω(1)
 
-------------------------------------------
 # Binary search:
 search from middle in sorted array
 
@@ -40,13 +38,11 @@ else if number > middle door
 
 time efficiency: O(log n); Ω(1)
 
-------------------------------------------
 # `strcmp()`:
 compare two strings
 
 `strcmp(names[i], "ron") == 0`
 
-------------------------------------------
 # struct:
 ```
 typedef struct
@@ -56,7 +52,7 @@ typedef struct
 }
 person;
 ```
-------------------------------------------
+
 # Selection sort:
 find the smallest number from the array,
 swap the smallest number with index 0,
@@ -69,9 +65,8 @@ For i from 0 to n-1
     Swap smallest item with i'th item
 ```
 
-time efficiency: O(n^2), Ω(n^2)
+time efficiency: O(n<sup>2</sup>), Ω(n<sup>2</sup>)
 
--------------------------------------------
 # Bubble sort:
 swap pairs of numbers repeatedly
 
@@ -84,9 +79,8 @@ Repeat until sorted
     If no swaps
         quit
 ```
-time efficiency: O(n^2), Ω(n)
+time efficiency: O(n<sup>2</sup>), Ω(n)
 
--------------------------------------------
 # Merge sort:
 
 pseudocode:
@@ -101,14 +95,12 @@ else
 
 time efficiency: O(n log n), Ω(n log n)
 
--------------------------------------------
 # Theta Notation:
 this notation describes the running time of algorithms if the upper bound and lower bound is the same
 
-θ(n^2): selection sort
+θ(n<sup>2</sup>): selection sort
 θ (n log n): merge sort
 
--------------------------------------------
 # Recursion
 - the ability for a function to call itself
 
