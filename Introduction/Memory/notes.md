@@ -277,11 +277,3 @@ int main()
     fclose(file);
 }
 ```
-
----
-
-## Graphics
-
-```c
-
-```
