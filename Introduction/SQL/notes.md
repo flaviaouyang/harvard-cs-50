@@ -1,6 +1,4 @@
-# SQL
-
----
+# Section C: SQL
 
 ##  Data Processing
 
