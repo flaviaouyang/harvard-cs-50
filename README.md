@@ -1,4 +1,4 @@
-# CS50 Introduction to Computer Science
+# Section A: CS50 Introduction to Computer Science
 
 This repository contains notes taken from [CS50 2021](https://cs50.harvard.edu/x/2022/) and its corresponding source code, excluding week zero and week ten.
 
