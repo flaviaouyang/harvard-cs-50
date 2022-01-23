@@ -1,6 +1,4 @@
-# Flask
-
----
+# Section E: Flask
 
 ## Web Programming
 
