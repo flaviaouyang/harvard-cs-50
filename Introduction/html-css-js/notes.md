@@ -1,6 +1,4 @@
-# HTML, CSS and JavaScript
-
----
+# Section D: HTML, CSS and JavaScript
 
 ## The Internet
 
