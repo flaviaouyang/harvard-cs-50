@@ -22,3 +22,17 @@ View this repository as a [website](https://flaviaouyang.github.io/harvard-cs-50
 - [SQL](Introduction/SQL/notes.md)
 - [HTML, CSS & JS](Introduction/html-css-js/notes.md)
 - [Flask](Introduction/Flask/notes.md)
+
+## LICENSE
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of these documentation files (the "Document"), to deal in the Document without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Document, and to permit persons to whom the Document is furnished to do so, subject to the following conditions:
+
+Copyright (c) 2022 Flavia Y. Ouyang
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Document.
+
+[For more information](https://github.com/flaviaouyang/cs-50/blob/master/LICENSE)
+
+## CONTRIBUTION
+
+You are more than welcomed to contribute to this project. Simply open an issue or create a pull request, and I will get back to you as soon as possible🤠
