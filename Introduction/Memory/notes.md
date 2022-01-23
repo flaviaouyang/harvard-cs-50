@@ -1,6 +1,4 @@
-# Memory
-
----
+#  Section F: Memory
 
 ## Hexadecimal
 
