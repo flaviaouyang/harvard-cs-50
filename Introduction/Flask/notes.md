@@ -181,6 +181,3 @@ def registry():
 def more():
     return render_template('index.html', books = BOOK)
 ```
-
-## Email
-
