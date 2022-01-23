@@ -1,4 +1,4 @@
-# Data Structure 
+# Section G: Data Structure 
 
 - *Data strucuture* are more complex ways to organize data in memory, allowing us to store information in different layouts.
 
