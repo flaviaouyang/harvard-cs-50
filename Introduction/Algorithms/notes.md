@@ -1,3 +1,5 @@
+# Section B: Algorithms
+
 # Big O Notation: 
 describes running time of an algorithm
 1. O(n)
