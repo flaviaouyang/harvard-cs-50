@@ -93,21 +93,21 @@ def greet():
     <title></title>
 </head>
 <body>
-    {% block body %}{% endblock %}
+    <!-- {% block body %}{% endblock %} -->
 </body>
 </html>
 ```
 
 ```html
 {% extends "layout.html" %}
-{% body block %}
+<!-- {% body block %} -->
 <h1>Hi, there!</h1>
 <h2>What should I call you?</h2>
 <form action="/greet" method="get">
     <input required autocomplete="off" autofocus name="name" placeholder="Name" type="text">
     <input type="submit">
 </form>
-{% endblock %}
+<!-- {% endblock %} -->
 ```
 
 ## `POST`
