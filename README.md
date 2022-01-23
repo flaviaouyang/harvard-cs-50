@@ -31,7 +31,7 @@ Copyright (c) 2022 Flavia Y. Ouyang
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Document.
 
-[For more information](https://github.com/flaviaouyang/cs-50/blob/master/LICENSE)
+[For more information](https://github.com/flaviaouyang/harvard-cs-50/blob/master/LICENSE)
 
 ## CONTRIBUTION
 
