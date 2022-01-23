@@ -1,4 +1,4 @@
-# Week Four: Memory
+# Memory
 
 ---
 
