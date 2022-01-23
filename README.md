@@ -19,6 +19,8 @@ View this repository as a [website](https://flaviaouyang.github.io/harvard-cs-50
 ## NOTES
 
 - [Algorithms](Introduction/Algorithms/notes.md)
+- [Memory](Introduction/Memory/notes.md)
+- [Data Structure](Introduction/Data\ Structure/notes.md)
 - [SQL](Introduction/SQL/notes.md)
 - [HTML, CSS & JS](Introduction/html-css-js/notes.md)
 - [Flask](Introduction/Flask/notes.md)
