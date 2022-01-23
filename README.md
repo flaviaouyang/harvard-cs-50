@@ -2,7 +2,7 @@
 
 This repository contains notes taken from [CS50 2021](https://cs50.harvard.edu/x/2022/) and its corresponding source code, excluding week zero and week ten.
 
-## Content
+## CONTENT
 
 - Week 1: C
 - Week 2: Arrays
